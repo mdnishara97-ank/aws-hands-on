@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 
-#Auther:Naduni
+#Author:Naduni
 #Date:2025-09-27
 #Script: list down the users in the public repo who uses that repo hashicorp terraform
 
@@ -10,7 +10,7 @@ set -euo pipefail
 
 # read arguments or use default repo
 
-OWNER="${1:-hashicorp}"  #first argumment, default 'hashicorp'
+OWNER="${1:-hashicorp}"  #first argument, default 'hashicorp'
 REPO="${2:-terraform}"      #second argument, default 'terrform'
 
 #API endpoint
